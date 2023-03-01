@@ -41,6 +41,19 @@ body {
 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 .page-wrap{
     width: 1200px;
     margin: 0 auto;
@@ -78,9 +91,10 @@ body {
 }
 
 .welcome {
+    background-color: #81b3d3;
     background-image: url("../images/index-background.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .welcome h2 {
@@ -164,7 +178,7 @@ body {
     background-color: #333333;
     background-image: url("../images/background-email.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .newsletter-title {
