@@ -220,14 +220,14 @@ body {
 }
 
 .catalog-header-title {
+    margin: 0;
     font-size: 60px;
     line-height: 78px;
 }
 
 .breadcrumbs {
     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -235,6 +235,10 @@ body {
     color: #ffffff;
     font-size: 16px;
     text-decoration: none;
+}
+
+.catalog-filter h2 {
+    margin: 0;
 }
 
 .filter-wrap {
@@ -245,13 +249,17 @@ body {
 
 .filter-form-list {
     padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     list-style: none;
 }
 
 .catalog-filter-form{
     color: #ffffff;
+}
+
+.filter-form-group {
+    margin: 0;
+    padding: 0;
 }
 
 .filter-form-title {
@@ -284,6 +292,7 @@ body {
 }
 
 .hotels-amount {
+    margin: 0;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -306,6 +315,7 @@ body {
 }
 
 .card-title {
+    margin: 0;
     font-size: 24px;
     line-height: 28px;
 }
@@ -334,6 +344,10 @@ body {
 
 .card-btn-favorites {
     background-color: #82b3d3;
+}
+
+.card-stars {
+    margin: 0;
 }
 
 .card-rating {
