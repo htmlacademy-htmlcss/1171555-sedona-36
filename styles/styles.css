@@ -199,6 +199,13 @@ body{
     line-height: 78px;
 }
 
+.breadcrumbs{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 .breadcrumbs-link{
     color: #ffffff;
     font-size: 16px;
@@ -208,7 +215,14 @@ body{
 .filter-wrap{
     background-image: url("../images/background-filter.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
+}
+
+.filter-form-list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
 
 .catalog-filter-form{
@@ -255,6 +269,13 @@ body{
     color: #333333;
 }
 
+.card-hotel-list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
 .card-link{
     color:#000000;
     text-decoration: none;
@@ -298,9 +319,13 @@ body{
     text-transform: uppercase;
 }
 
-.pagination-item{
+.pagination-list{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     list-style: none;
 }
+
 
 .pagination-link{
     font-size: 20px;
