@@ -30,6 +30,10 @@
     font-display: swap;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -38,7 +42,6 @@ body {
     color:#000000;
     font-size: 18px;
     line-height: 21px;
-
 }
 
 .visually-hidden {
@@ -55,9 +58,27 @@ body {
   }
 
 .page-wrap{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
     width: 1200px;
     margin: 0 auto;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+}
+
+.main-header {
+    padding: 0 70px;
+
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation-inner {
+    width: 600px;
+    background: #fcc;
 }
 
 .navigation-list {
@@ -65,6 +86,14 @@ body {
     margin: 0;
     list-style: none;
 }
+
+.navigation-user {
+    width: 280px;
+    margin-left: auto;
+    background: #369;
+}
+
+
 
 .navigation-link {
     color: #000000;
@@ -82,6 +111,7 @@ body {
 }
 
 .main-index {
+    flex-grow: 1;
     text-align: center;
 }
 
@@ -123,10 +153,16 @@ body {
 }
 
 .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 0;
     margin: 0;
     list-style: none;
     background-color: #82b3d3;
+}
+
+.advantages-item {
+    width: 400px;
 }
 
 .advantages-title {
@@ -323,6 +359,7 @@ body {
 .filter-form-group {
     margin: 0;
     padding: 0;
+    border: none;
 }
 
 .filter-form-title {
