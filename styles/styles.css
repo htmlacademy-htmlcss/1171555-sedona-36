@@ -116,6 +116,8 @@ body {
 .navigation-entry {
     color: #ffffff;
     background: #756157;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 .favorites-num {
@@ -131,12 +133,10 @@ body {
 }
 
 .welcome {
-    background-color: #81b3d3;
-    background-image: url("../images/index-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #81b3d3 url("../images/index-background.jpg") top left/cover no-repeat;
     padding: 50px 0 78px;
 }
+
 
 .advantages {
     padding-top: 69px;
@@ -177,6 +177,7 @@ body {
 }
 
 .advantages-item {
+    outline: 1px solid red;
     width: 400px;
 }
 
