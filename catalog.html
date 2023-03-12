@@ -102,13 +102,12 @@
                         <div class="filter-price-wrap">
                             <fieldset class="filter-form-group">
                                 <legend class="filter-form-title">Стоимость, ₽:</legend>
-
-                                <label class="price-label" for="min-price">от</label>
-                                <input class="price-input" id="min-price" type="text" name="min-price" value="0">
-
-                                <label class="price-label" for="max-price">до</label>
-                                <input class="price-input" id="max-price" type="text" name="max-price"value="9000">
-
+                                <div class="from-to-wrap">
+                                    <label class="price-label price-label-from" for="min-price">от</label>
+                                    <input class="price-input price-input-from" id="min-price" type="text" name="min-price" value="0">
+                                    <label class="price-label price-label-to" for="max-price">до</label>
+                                    <input class="price-input price-input-to" id="max-price" type="text" name="max-price"value="9000">
+                                </div>
                                 <div class="range-container">
                                     <div class="range-scale">
                                         <div class="range"></div>
