@@ -493,6 +493,7 @@ body {
 
 .catalog-header-title {
     margin: 0;
+    margin-bottom: 7px;
     font-size: 60px;
     line-height: 78px;
 }
@@ -528,6 +529,18 @@ body {
     width: 12px;
     height: 12px;
     background-image: url("../images/icon-home.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.breadcrumbs-home:after {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 24px;
+    width: 6px;
+    height: 9px;
+    background-image: url("../images/arrow.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -925,4 +938,15 @@ body {
     color:#000000;
     background-image: none;
     background-color: #ffffff;
+}
+
+.modal-wrap{
+
+}
+
+.modal {
+    width: 717px;
+    padding:64px 70px;
+    background: #ffffff;
+    border-radius:38px;
 }
