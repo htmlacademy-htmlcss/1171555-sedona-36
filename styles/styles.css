@@ -116,8 +116,7 @@ body {
     left: 16px;
     right: 15px;
     bottom: 0;
-    height: 2px;
-    background-color: #756257;
+    border-bottom:2px solid #756257;
 }
 
 .user-search {
@@ -1049,7 +1048,7 @@ body {
 }
 
 .modal-wrap {
-    display: none;
+    display: block;
     position: fixed;
     top: 0;
     left: 0;
@@ -1167,7 +1166,51 @@ body {
 
 .modal-who-adult {
     margin-right: 88px;
+    position: relative;
 }
+
+.modal-adult-plus,
+.modal-adult-minus,
+.modal-children-minus,
+.modal-children-plus {
+    position: absolute;
+    width: 30px;
+    height: 44px;
+    background-color: #ccf;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:none;
+    cursor: pointer;
+}
+
+.modal-adult-minus {
+    left: 208px;
+    background-image: url("../images/button-minus.svg");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.modal-adult-plus {
+    left: 285px;
+    background-image: url("../images/button-plus.svg");
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.modal-children-minus {
+    left: 616px;
+    background-image: url("../images/button-minus.svg");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.modal-children-plus {
+    left: 448px;
+    background-image: url("../images/button-plus.svg");
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 
 .modal-input::placeholder,
 .modal-who::placeholder{
@@ -1187,7 +1230,7 @@ body {
 .modal-btn {
     width: 577px;
     padding: 18px 20px;
-    margin-top: 48px;
+    margin-top: 50px;
     background-color: #83b3d3;
     color: #ffffff;
     border: none;
